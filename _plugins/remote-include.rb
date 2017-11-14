@@ -15,7 +15,17 @@ module Jekyll
     end
 
     def render(context)
-      open("#{@remote_include}")
+      text = open("#{@remote_include}")
+
+      # If it is a jekyll post
+      # then we are dealing with front-matter file,
+      # https://jekyllrb.com/docs/frontmatter/
+      if text.start_with?("---")
+        # We need to remove the YAML header
+        text = text[text.index("---", 2)+3..-1]
+      end
+
+      text
     end
 
   end
