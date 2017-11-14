@@ -1,0 +1,7 @@
+---
+title: DistGit 1.0
+author: Michal Novotný
+layout: post
+---
+
+{% remote_include https://raw.githubusercontent.com/clime/clime.github.io/master/_posts/2017-05-20-DistGit-1.0.markdown %}
