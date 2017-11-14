@@ -2,6 +2,5 @@
 title: Copr - Forking Projects
 author: Jakub Kadlčík
 layout: post
+external_url: http://frostyx.cz/posts/copr-forking-projects
 ---
-
-{% remote_include https://raw.githubusercontent.com/FrostyX/frostyx.github.io/master/_posts/2016-03-13-copr-forking-projects.md %}

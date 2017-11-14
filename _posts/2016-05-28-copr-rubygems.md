@@ -2,6 +2,5 @@
 title: Copr - Rubygems
 author: Jakub Kadlčík
 layout: post
+external_url: http://frostyx.cz/posts/copr-rubygems
 ---
-
-{% remote_include https://raw.githubusercontent.com/FrostyX/frostyx.github.io/master/_posts/2016-05-28-copr-rubygems.md %}

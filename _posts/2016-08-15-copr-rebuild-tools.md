@@ -2,6 +2,5 @@
 title: Copr Rebuild Tools
 author: Jakub Kadlčík
 layout: post
+external_url: http://frostyx.cz/posts/copr-rebuild-tools
 ---
-
-{% remote_include https://raw.githubusercontent.com/FrostyX/frostyx.github.io/master/_posts/2016-08-15-copr-rebuild-tools.md %}

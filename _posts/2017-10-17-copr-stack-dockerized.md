@@ -2,6 +2,5 @@
 title: Copr stack dockerized!
 author: Jakub Kadlčík
 layout: post
+external_url: http://frostyx.cz/posts/copr-stack-dockerized
 ---
-
-{% remote_include https://raw.githubusercontent.com/FrostyX/frostyx.github.io/master/_posts/2017-10-17-copr-stack-dockerized.md %}
