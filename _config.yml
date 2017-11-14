@@ -28,5 +28,5 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 
-plugins:
+gems:
   - jekyll_remote_include
