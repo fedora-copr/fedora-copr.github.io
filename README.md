@@ -37,7 +37,8 @@ If the post was already published on some page and you want to publish it also h
 
 ### Remote-included post
 
-If the post was already published and is written in Markdown, you can remote-include it's content like this
+GitHub Pages doesn't support plugins (see [docs](https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)), so don't do this until we find a workaround.
+~~If the post was already published and is written in Markdown, you can remote-include it's content like this~~
 
     ---
     title: <some title>
