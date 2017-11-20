@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## The Copr Blog
+This is an official blog for Copr project written by developers as well as users. Its purpose is to keep you updated with new features, sharing how-to tutorials and other kinds of interesting information.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Who writes articles
+Articles are written mainly by Copr developers, but we encourage other users to participate as well. Please see how to contribute in our [README](https://github.com/fedora-copr/fedora-copr.github.io/blob/master/README.md). A topic of an article can be absolutely anything that is related to Copr.
