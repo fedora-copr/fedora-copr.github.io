@@ -1,0 +1,17 @@
+---
+---
+@import "minima";
+
+.site-header {
+  border-top: none;
+  height: 50px;
+  background-image: url('/assets/img/header_background.png');
+}
+
+.site-header img {
+  height: 50px;
+}
+
+.site-nav .page-link {
+  color: white;
+}
