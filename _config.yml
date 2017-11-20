@@ -19,8 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Copr is a service that builds your application as an RPM
   and provides you with your own Dnf/Yum repository.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://copr.fedoraproject.org/" # the base hostname & protocol for your site
+url: "https://fedora-copr.github.io/" # the base hostname & protocol for your site
 github_username:  fedora-copr
+
+disqus:
+  shortname: copr-blog
 
 # Build settings
 markdown: kramdown
