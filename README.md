@@ -1,18 +1,32 @@
-# Copr blog
+# The Copr Blog
 
 <https://fedora-copr.github.io/>
 
 
 ## How to write a post
 
-There are three options to be considered when creating a new post.
+Here is the recommended workflow how to submit a new post.
 
-1. Standard post
-2. External post
-3. Remote-included post
+### Workflow
+
+1. Fork and clone the repo
+2. Add a new file in `_posts` or `_drafts`
+3. Write the content of your post
+4. Run the page locally and see your changes
+5. Send a pull request
 
 
-### Standard post
+### Posts vs drafts
+
+Most likely you want to create a post which is labeled by date and appears on the front page right after merging the pull request. Such posts are named `YYYY-MM-DD-name.md` and located in the `_posts` directory. If you wish to create a draft and not release it just now, have your file in the `_drafts` directory. The filename for drafts doesn't contain the date part.
+
+
+### Standard vs external posts
+
+Do you want to host your post on this site or just create a record of your post and point it to your personal page?
+
+
+#### Standard post
 
 This page is built on Jekyll, see an official documentation how to write a post <https://jekyllrb.com/docs/posts/>. Just make sure to use front-matter header with following attributes
 
@@ -23,7 +37,7 @@ This page is built on Jekyll, see an official documentation how to write a post 
     ---
 
 
-### External post
+#### External post
 
 If the post was already published on some page and you want to publish it also here, you can duplicate the post, but more preferably create a post like this
 
@@ -35,15 +49,14 @@ If the post was already published on some page and you want to publish it also h
     ---
 
 
-### Remote-included post
+### Text formatting
 
-GitHub Pages doesn't support plugins (see [docs](https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)), so don't do this until we find a workaround.
-~~If the post was already published and is written in Markdown, you can remote-include it's content like this~~
+As it is apparent from posts filename extension `.md`, they are formatted in [Markdown](https://daringfireball.net/projects/markdown/syntax). It has very simple formatting syntax which can be learned in several minutes. It supports mixing-in an HTML tags for complicated things, but please treat them with care. The best thing you can do before writing a new post is opening any of existing posts in the text editor.
 
-    ---
-    title: <some title>
-    author: <full name>
-    layout: post
-    ---
 
-    {% remote_include https://<some page>/<filename>.md %}
+### See your changes locally
+
+Don't get scared by the fact that you should run something locally. You don't have to. However, if you want to see, how the post will look once we release it, run this page locally. It is no more than
+
+    bundle install
+    bundle exec jekyll serve --incremental --drafts
