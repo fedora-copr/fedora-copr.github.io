@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and provides you with your own Dnf/Yum repository.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fedora-copr.github.io/" # the base hostname & protocol for your site
+permalink: /posts/:title
 github_username:  fedora-copr
 
 disqus:
