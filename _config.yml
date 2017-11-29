@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Copr blog
-email: http://copr.fedoraproject.org/
+email: copr-devel@lists.fedorahosted.org
 description: > # this means to ignore newlines until "baseurl:"
   Copr is a service that builds your application as an RPM
   and provides you with your own Dnf/Yum repository.
