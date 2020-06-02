@@ -4,7 +4,7 @@ author: Dominik Tureček
 layout: post
 ---
 
-Previously, when you wanted to delete lots of build in the Copr, you have to do something like:
+Previously, when you wanted to delete lots of build in the Copr, you had to do something like:
 
     for id in 10 12 13 15; do
         copr-cli delete-build $id
