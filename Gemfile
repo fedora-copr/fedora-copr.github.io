@@ -21,4 +21,5 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll_remote_include"
+  gem "kramdown-parser-gfm"
 end
