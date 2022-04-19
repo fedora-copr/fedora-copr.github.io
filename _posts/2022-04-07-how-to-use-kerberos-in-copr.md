@@ -81,4 +81,4 @@ We are currently unable to retrieve group membership and your email from FAS whe
 We need this information about new users in order to use Copr.
 
 ## Logic behind it
-![Logic behind it](state_machine.jpg)
+![Logic behind it](/assets/img/posts/state_machine.jpg)
