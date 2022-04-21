@@ -2,7 +2,7 @@
 title: How to use Kerberos in Copr
 author: Silvie Chlupova
 layout: post
-
+---
 
 During the last release, a new authentication option was added to Copr. Now users can also log in using a Kerberos ticket.
 We use GSSAPI to implement this mechanism.
