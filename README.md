@@ -58,5 +58,6 @@ As it is apparent from posts filename extension `.md`, they are formatted in [Ma
 
 Don't get scared by the fact that you should run something locally. You don't have to. However, if you want to see, how the post will look once we release it, run this page locally. It is no more than
 
+    sudo dnf install ruby-devel g++
     bundle install
     bundle exec jekyll serve --incremental --drafts
