@@ -68,13 +68,17 @@ List of owner's projects
 Build config
 ------------
 
-This was never considered a kind of "API" info - but rather internal thing.  It
-lived in the `api_2` namespace mistakenly.  The info is now moved to the
-`/backend` namespace ("internals").  If you are the user, please let the team
-know about your use-case so we can help you:
+The "build config" info is rather internal thing (we have part of it in APIv3,
+because of the `$ copr mock-config <project> <chroot>` functionality.  But
+previously the config route was used to get the build result directory, aka
+chroot's `result_dir_url`.  This can be now obtained through the
+`/api_3/build-chroot` route (`result_url` field).  The rest of the info goes to
+`/backend` internal namespace.
 
 - `Old route: /api_2/build_tasks/<build_id>/<chroot_name>`
-- `New route: /backend/get-build-task/<build-id>-<chroot_name>`
+- `New route: /api_3/build-chroot?build_id=<build-id>&chrootname=<chroot_name>`
+- `New route: /api_3/build-chroot/build-config?build_id=<build-id>&chrootname=<chroot_name>`
+- `New route: /backend/get-build-task/<build-id>-<chroot_name>` (internal only)
 
 [api_schedule]: https://fedora-copr.github.io/posts/EOL-APIv1-APIv2
 [release_notes]: https://docs.pagure.org/copr.copr/release-notes/2022-09-21.html
