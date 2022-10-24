@@ -12,7 +12,11 @@ layout: default
 
         <h2>
           {% if post.external_url %}
-            <a class="post-link" href="{{ post.external_url }}">{{ post.title | escape }}</a>
+            <a class="post-link" href="{{ post.external_url }}">
+              {% if post.type == "video" %}
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              {% endif %}
+              {{ post.title | escape }}</a>
           {% else %}
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           {% endif %}
