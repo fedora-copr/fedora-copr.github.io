@@ -49,6 +49,17 @@ If the post was already published on some page and you want to publish it also h
     ---
 
 
+### Video, podcasts, and other media
+
+Specify the following parameters
+
+    ---
+    ...
+    external_url: <link to your post>
+    type: video
+    ---
+
+
 ### Text formatting
 
 As it is apparent from posts filename extension `.md`, they are formatted in [Markdown](https://daringfireball.net/projects/markdown/syntax). It has very simple formatting syntax which can be learned in several minutes. It supports mixing-in an HTML tags for complicated things, but please treat them with care. The best thing you can do before writing a new post is opening any of existing posts in the text editor.
