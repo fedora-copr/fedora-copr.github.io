@@ -18,8 +18,8 @@ exceptions, everything is stored in our "Copr backend" storage.
 Our current storage is a RAID array of block devices with the Ext4
 filesystem. For various reasons, AWS block devices larger than 16TB are either
 hard to maintain or expensive. We plan to solve this problem by migrating to an
-S3 object storage and Pulp, which is a mature solution for managing software
-repositories.
+S3 object storage and Pulp, which is a mature and [durable-by-default][durability]
+solution for managing software repositories.
 
 We have already migrated all Copr team projects to Pulp to dogfood the
 integration on ourselves, and we have already migrated [one large project][indi]
@@ -84,3 +84,4 @@ please let us know:
 [pypi3]: https://copr.fedorainfracloud.org/coprs/g/copr/PyPI3/
 [matrix]: https://matrix.to/#/#buildsys:fedoraproject.org
 [mailing-list]: https://lists.fedoraproject.org/archives/list/copr-devel@lists.fedorahosted.org/
+[durability]: https://docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html
