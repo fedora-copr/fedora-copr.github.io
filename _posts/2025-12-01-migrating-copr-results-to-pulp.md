@@ -16,7 +16,7 @@ consumption sits around ~37TB with only ~3TB of free disk space. With a very few
 exceptions, everything is stored in our "Copr backend" storage.
 
 Our current storage is a RAID array of block devices with the Ext4
-filesystem. For various reasons, AWS block devices larger than 14TB are either
+filesystem. For various reasons, AWS block devices larger than 16TB are either
 hard to maintain or expensive. We plan to solve this problem by migrating to an
 S3 object storage and Pulp, which is a mature solution for managing software
 repositories.
