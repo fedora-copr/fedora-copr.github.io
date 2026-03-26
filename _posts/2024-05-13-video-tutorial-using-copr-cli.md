@@ -2,5 +2,5 @@
 title: "Video tutorial: Using Copr CLI"
 author: Jakub Kadlčík
 layout: post
-external_url: https://docs.pagure.org/copr.copr/video_tutorial.html
+external_url: https://docs.copr.fedorainfracloud.org/video_tutorial.html
 ---
