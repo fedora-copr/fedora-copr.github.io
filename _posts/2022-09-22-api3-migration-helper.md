@@ -81,4 +81,4 @@ chroot's `result_dir_url`.  This can be now obtained through the
 - `New route: /backend/get-build-task/<build-id>-<chroot_name>` (internal only)
 
 [api_schedule]: https://fedora-copr.github.io/posts/EOL-APIv1-APIv2
-[release_notes]: https://docs.pagure.org/copr.copr/release-notes/2022-09-21.html
+[release_notes]: https://docs.copr.fedorainfracloud.org/release-notes/2022-09-21.html
