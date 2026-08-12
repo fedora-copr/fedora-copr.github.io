@@ -1,5 +1,5 @@
 ---
-title: PyPI Dependencies, resolved and built for you
+title: PyPI dependencies, resolved and built for you
 author: Sundaram Krishnan
 layout: post
 ---
