@@ -57,11 +57,12 @@ the [Pulp Migration Schedule][schedule]. Roughly, the plan is as follows:
 1. Set the default storage for all new [Packit][packit] projects to Pulp.
 2. Set the default storage for all new projects to Pulp.
 3. Migrate large projects (17 projects that are 100GB+).
-4. Migrate all projects with a few exceptions.
+4. Migrate [@rubygems/rubygems][rubygems], [@copr/PyPI][pypi], and
+   [@copr/PyPI3][pypi3].
+5. Migrate all projects
     - Migration will be done in alphabetical order by owner name.
-    - Exceptions: Packit projects, [@rubygems/rubygems][rubygems],
-    [@copr/PyPI][pypi], and [@copr/PyPI3][pypi3].
-5. Migrate everything that remains.
+    - With the exception of Packit projects
+6. Migrate any potential leftovers.
 
 
 ## Contact
